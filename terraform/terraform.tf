@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "byrdidevops"
+    bucket = "alabalanica"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
